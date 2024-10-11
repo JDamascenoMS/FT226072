@@ -313,13 +313,19 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="ViewsRazor\Web.config" />
+    <Content Include="ViewsRazor\_ViewStart.cshtml" />
+    <Content Include="ViewsRazor\Shared\Error.cshtml" />
+    <Content Include="ViewsRazor\Shared\_Layout.cshtml" />
+    <Content Include="ViewsRazor\Home\About.cshtml" />
+    <Content Include="ViewsRazor\Home\Contact.cshtml" />
+    <Content Include="ViewsRazor\Home\Index.cshtml" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Contact.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <None Include="Views\Shared\Layout.Master" />
+    <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
